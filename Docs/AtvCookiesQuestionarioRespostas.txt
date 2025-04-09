@@ -1,0 +1,41 @@
+Atividade Cookies Questionário Respostas
+
+Dadas as questões abaixo, 
+explique, crie um script e printe o terminal do navegador, 
+para responder as questões
+Questões:
+1 O que é um cookie em PHP?
+2 Como Verificar se um cookie existe em PHP?
+3 Como excluir um cookie em PHP?
+4 Como criar um cookie com um tempo de expiração específico?
+5 Como definir um cookie que expire ao fechar o navegador?
+6 Como definir o caminho e o domínio de um cookie?
+7 Como acessar o valor de um cookie em PHP?
+8 Como alterar o valor de um cookie em PHP?
+9 Qual é o tamanho máximo de um cookie em PHP?
+10 Como verificar se um cookie expirou em PHP?
+11 É possível definir um cookie com valores especiais, como JSON?
+12 Como recuperar um cookie JSON em PHP?
+13 Os Cookies em PHP são seguros?
+14 Qual é a diferença entre os cookies 'secure' e 'httponly' em PHP?
+15 Como definir um cookie com o caminho para um diretório específico?
+
+
+Respostas (Adicionar Código e Prints):
+1 Um código que opera no navegador salvando dados do usuário na sessão corrente
+2 Abrindo o Terminal, indo na seção de redes e olhando o tráfego
+3 Para remover um cookie em PHP se for temporário é só fechar página no navegador
+4 Criando um SetTimer no arquivo do PHP
+5 Definindo SetTimer no arquivo do PHP
+6 Definindo nas configurações do arquivo do Cookie em PHP
+7 Lendo o valor no terminal ou fazendo uma chamada pela barra de navegação além de, e, incluindo chamadas em outros arquivos
+8 Alterando o valor pelo terminal no navegador e/ou alterando o arquivo em PHP
+9 Até 4 Mega Bytes, dependendo até onde foi configurado no servidor
+10 Verificando o tempo dele no console do navegador
+11 Sim, Arquivos JSON podem ser utilizados por cookies caso configurado corretamente e podem se tornar cookies
+12 Chamando o Arquivo .JSON no Arquivo PHP
+13 Em caso de ser um cookie 'secure' sim, em caso de ser um cookie 'httponly', não é seguro para outras operações
+14 Um cookie 'secure' é seguro para opreações de escrita e leitura, um cookie httponly deve ser considerado somente para leitura ainda assim com cuidado
+15 Criando a configuração e adicionando o caminho solicitado na barra de navegação dentro do arquivo PHP do Cookie ou de outrem que tenha acesso as cofingurações desse cookie
+
+ 8888
